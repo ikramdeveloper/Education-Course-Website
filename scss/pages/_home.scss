@@ -1,0 +1,55 @@
+.home {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+
+  .image {
+    flex: 1 1 42rem;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .content {
+    flex: 1 1 42rem;
+
+    h3 {
+      color: $black;
+      font-size: 5rem;
+    }
+
+    p {
+      font-size: 1.4rem;
+      color: $light-color;
+      padding: 1rem 0;
+      line-height: 2.5;
+    }
+  }
+}
+
+.category {
+  @include grid(16rem);
+
+  .box {
+    border-radius: 1rem;
+    background: $light-blue;
+    padding: 4rem 3rem;
+    text-align: center;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    img {
+      height: 7rem;
+      margin-bottom: 2rem;
+    }
+
+    h3 {
+      font-size: 1.7rem;
+      color: $black;
+    }
+  }
+}

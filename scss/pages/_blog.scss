@@ -1,0 +1,57 @@
+.blog {
+  @include grid(31rem);
+
+  .box {
+    .image {
+      height: 25rem;
+      width: 100%;
+      overflow: hidden;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 0.5rem;
+      }
+    }
+
+    .content {
+      padding: 2rem;
+      background: $light-bg;
+
+      .icons {
+        padding: 1.5rem 0;
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        a {
+          font-size: 1.4rem;
+          color: $light-color;
+
+          &:hover {
+            color: $blue;
+          }
+
+          i {
+            padding-right: 0.5rem;
+            color: $blue;
+          }
+        }
+      }
+
+      h3 {
+        font-size: 1.7rem;
+        padding: 0.5rem 0;
+        color: $black;
+      }
+
+      p {
+        padding: 1rem 0;
+        font-size: 1.4rem;
+        line-height: 2.5;
+        color: $light-color;
+      }
+    }
+  }
+}

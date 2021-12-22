@@ -1,0 +1,22 @@
+// Variables
+@import "./variables";
+
+// media queries
+@import "./media";
+
+// base
+@import "./base";
+
+//sections
+@import "./sections/header";
+@import "./sections/footer";
+
+// pages
+@import "./pages/home";
+@import "./pages/about";
+@import "./pages/contact";
+@import "./pages/blog";
+@import "./pages/teachers";
+@import "./pages/course1";
+@import "./pages/course2";
+@import "./pages/course3";
