@@ -2,7 +2,7 @@
 
 [View Images](https://imgur.com/gallery/1TumaRZ)
 
-### Languages / Frameworks / Techologies:
+#### Languages / Frameworks / Technologies:
 
 - HTML5
 - CSS3
@@ -10,6 +10,6 @@
 - JavaScript
 - Fontawesome
 
-###### Warning:
+##### Warning:
 
 > Images and Text maybe copyright.
